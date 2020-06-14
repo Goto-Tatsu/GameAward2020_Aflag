@@ -28,8 +28,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4727560320454928360}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.781888, y: -2.2009642, z: 0.9352167}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
+  m_LocalPosition: {x: 9.666, y: -0.424, z: 0.935}
+  m_LocalScale: {x: 0.4513614, y: 0.4513614, z: 0.9027228}
   m_Children: []
   m_Father: {fileID: 7199682579093695375}
   m_RootOrder: 0
@@ -131,7 +131,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23a0ce0009c51d548858b511c871f6e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StartPosition: {x: 0, y: 0, z: 0}
+  StartPosition: {x: 0, y: -0.4629, z: 0}
 --- !u!1 &7199682577160617884
 GameObject:
   m_ObjectHideFlags: 0
@@ -143,6 +143,7 @@ GameObject:
   - component: {fileID: 7199682577160617885}
   - component: {fileID: 7199682577160617882}
   - component: {fileID: 7199682577160617883}
+  - component: {fileID: 6152242156635487330}
   m_Layer: 0
   m_Name: idea_honda
   m_TagString: Untagged
@@ -158,11 +159,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7199682577160617884}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 8.36, y: 0.28, z: 0.9352167}
-  m_LocalScale: {x: 3.7880821, y: 4.17948, z: 1}
-  m_Children: []
+  m_LocalPosition: {x: 9.01, y: 1.31, z: 0.935}
+  m_LocalScale: {x: 3.1610787, y: 3.4876926, z: 0.83448005}
+  m_Children:
+  - {fileID: 7536807245965035175}
   m_Father: {fileID: 7199682579093695375}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &7199682577160617882
 SpriteRenderer:
@@ -446,6 +448,20 @@ PolygonCollider2D:
       - {x: 0.39999998, y: 0.62}
       - {x: 0.45, y: 0.58}
       - {x: 0.45999998, y: 0.59}
+--- !u!114 &6152242156635487330
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7199682577160617884}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e731f5bc0d1efd94aa65304263d82d90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RotateSpeed: 2
+  Automatic: 0
 --- !u!1 &7199682578355308910
 GameObject:
   m_ObjectHideFlags: 0
@@ -470,14 +486,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7199682578355308910}
-  m_LocalRotation: {x: -0, y: -0, z: 0.5185504, w: 0.85504705}
-  m_LocalPosition: {x: 10.68, y: 5.65, z: 0.9352167}
+  m_LocalRotation: {x: -0, y: -0, z: 0.0019276887, w: 0.9999982}
+  m_LocalPosition: {x: 8.93, y: 10, z: 0.9352167}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 8671848343440954468}
   m_Father: {fileID: 7199682579093695375}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 62.47}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0.22100002}
 --- !u!114 &6596935867674799440
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1527,12 +1543,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7199682579093695374}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.951888, y: -0.18903598, z: -0.9352167}
+  m_LocalPosition: {x: -9.41, y: -1.15, z: -0.9352167}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4727560320454928367}
   - {fileID: 7199682578355038690}
-  - {fileID: 7536807245965035175}
   - {fileID: 7199682577160617885}
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -1642,12 +1657,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7536807245965035178}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 8.1, y: 0.3, z: 0.5130544}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -0.06863613, y: 0.0047852867, z: -0.42216235}
+  m_LocalScale: {x: 0.26398584, y: 0.2392642, z: 1}
   m_Children:
   - {fileID: 7536807245621654352}
-  m_Father: {fileID: 7199682579093695375}
-  m_RootOrder: 2
+  m_Father: {fileID: 7199682577160617885}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &7536807245965035176
 MonoBehaviour:
